@@ -16,7 +16,7 @@ namespace WebApplicationTest.Controllers
 
             ViewBag.Data = dc.Tables.Select(c=>c.Name);
                 //   Comment 1
-
+               // barnch master
             return View();
         }
     }
